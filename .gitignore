@@ -1,2 +1,86 @@
-config.js
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
 
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pip-lock.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+*.zip
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+.pytest_cache/
+__pycache__/
+*.pyc
+.coverage
+
+# Uploads and temp files
+uploads/
+tmp/
+temp/
+*.tmp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API Keys and secrets
+.secrets/
+secrets/
+private_keys/
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.eslintcache
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# OS specific
+*.sublime-workspace
+*.sublime-project
+
+# Config files with sensitive data
+config.js
